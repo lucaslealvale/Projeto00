@@ -28,7 +28,7 @@ public class MovimentoBola : MonoBehaviour
     // Update is called once per frame
    void Update()
    {
-       // primeira execução nas rotinas de Update() da Bola e Raquete.
+       if(gm.gameState == GameManager.GameState.MENU) Reset() ;
        if (gm.gameState != GameManager.GameState.GAME) return;
        transform.position += direcao * Time.deltaTime * velocidade;
 
