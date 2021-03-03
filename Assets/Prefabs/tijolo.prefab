@@ -121,3 +121,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c29596f070bdb59439b863d29e8544bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  diamante: {fileID: 550517293519191482, guid: 889fae1f06730be449099dfbe262b1a2, type: 3}

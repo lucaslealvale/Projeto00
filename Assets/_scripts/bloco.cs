@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class bloco : MonoBehaviour
 {
+
+    public GameObject diamante;
+     
+
     public static char cor;
     // Start is called before the first frame update
        void Start()
@@ -19,9 +23,14 @@ public class bloco : MonoBehaviour
     {
         
     }
+
+    
     private void OnTriggerEnter2D(Collider2D collision)
         {
-
+                double c =  Random.Range(0.0f, 1.0f);
+                if(c<0.1){ 
+                    Instantiate(diamante, transform.position, Quaternion.identity);
+                }
                 Destroy(gameObject);
         }
         

@@ -83,7 +83,7 @@ public class MovimentoBola : MonoBehaviour
         }
         Debug.Log("hit" + col.name);
         if(col.gameObject.CompareTag("hpUp")){
-            gm.aumentaVida(1);
+            gm.vidas++;
             Destroy (col.gameObject );
         }
 }

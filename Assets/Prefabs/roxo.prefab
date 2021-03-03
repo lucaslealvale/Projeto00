@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8841362048670373461}
   - component: {fileID: 8266270676083508277}
   - component: {fileID: 5615705833026581989}
+  - component: {fileID: 8980290597968242398}
   m_Layer: 0
   m_Name: roxo
   m_TagString: Tijolo
@@ -121,3 +122,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c29596f070bdb59439b863d29e8544bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  diamante: {fileID: 550517293519191482, guid: 889fae1f06730be449099dfbe262b1a2, type: 3}
+--- !u!95 &8980290597968242398
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4503196491743559166}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 44d51b89eeac0414cb1720d9bda92b69, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

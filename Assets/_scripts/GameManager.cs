@@ -26,9 +26,7 @@ public class GameManager
        pontos = 0;
        gameState = GameState.MENU;
    }
-    public void aumentaVida(int maisUm){
-        vidas+=maisUm;
-    } 
+   
     
     public delegate void ChangeStateDelegate();
     public static ChangeStateDelegate changeStateDelegate;
